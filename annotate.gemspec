@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<rake>, ["~> 11"])
       s.add_runtime_dependency(%q<activerecord>, [">= 3.2", "< 6.0"])
     else
-      s.add_dependency(%q<rake>, ["~> 10.4"])
+      s.add_dependency(%q<rake>, ["~> 11"])
       s.add_dependency(%q<activerecord>, [">= 3.2", "< 6.0"])
     end
   else
